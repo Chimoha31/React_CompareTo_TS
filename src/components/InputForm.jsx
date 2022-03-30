@@ -13,7 +13,7 @@ const InputForm = ({ taskList, setTaskList }) => {
         text: inputValue,
       },
     ]);
-    console.log(taskList);
+    setInputValue("");
   };
 
   const handleChange = (e) => {
