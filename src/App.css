@@ -35,7 +35,7 @@ header {
 
 .inputForm button {
   padding: 0.38rem 0.5rem;
-  background: rgb(243, 240, 84);
+  background: rgb(243, 84, 84);
 }
 
 .todoList {
@@ -55,15 +55,18 @@ header {
   opacity: 0.5;
 }
 
+.fa-plus-square {
+  color: #fff;
+}
 
 .icons .fa-check {
   padding: 0.487rem .5rem;
-  background: rgb(83, 164, 195);
+  background: rgb(245, 237, 129);
 }
 
 .icons .fa-trash-alt {
   padding: 0.487rem .5rem;
-  background: rgb(197, 70, 81);
+  background: rgb(122, 175, 243);
 }
 
 .todoText {

@@ -11,6 +11,7 @@ const InputForm = ({ taskList, setTaskList }) => {
       {
         id: taskList.length,
         text: inputValue,
+        completed: false,
       },
     ]);
     setInputValue("");
